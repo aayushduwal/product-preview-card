@@ -1,0 +1,108 @@
+* {
+  background-color: hsl(30, 38%, 92%);
+  font-family: "Figtree", serif;
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  /* margin-top: 200px; */
+}
+
+.box1 {
+  background-color: white;
+  height: 620px;
+  width: 424px;
+  display: inline-block;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.box1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.box2 {
+  background-color: white;
+  height: 620px;
+  width: 424px;
+  display: inline-block;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 35px 55px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+.box2 h3 {
+  background-color: white;
+  color: hsl(228, 12%, 48%);
+  font-size: 18px;
+  letter-spacing: 5px;
+}
+
+.box2 h1 {
+  font-family: "Fraunces", serif;
+  background-color: white;
+  font-size: 43px;
+}
+
+.box2 p {
+  background-color: white;
+  color: hsl(228, 12%, 48%);
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.price-container {
+  background-color: white;
+  display: flex;
+  gap: 50px;
+  margin-top: 43px;
+}
+
+.price-container span {
+  background-color: white;
+}
+
+.current-price {
+  font-family: "Fraunces", serif;
+  color: hsl(158, 36%, 37%);
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.original-price {
+  color: hsl(228, 12%, 48%);
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  text-decoration: line-through;
+}
+
+.cart {
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  width: 100%;
+  margin-top: 38px;
+  border-radius: 10px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  gap: 10px;
+  border: none;
+  outline: none;
+}
+
+.cart i {
+  background-color: hsl(158, 36%, 37%);
+}
